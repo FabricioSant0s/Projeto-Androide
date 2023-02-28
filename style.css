@@ -43,10 +43,9 @@ body{
     font-family: var(--fonte-padrão);
 }
 
-a .externo::after {
-    content: "\1F517\00A0\00A0";
+a::after{
+    content: "🔗";
 }
-
 
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
